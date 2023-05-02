@@ -1,0 +1,70 @@
+body {
+	 height: 100vh;
+	 margin: 0;
+	 display: grid;
+	 place-items: center;
+}
+ .box {
+	 width: 300px;
+}
+ .box h1 {
+	 font-size: 20px;
+	 margin: 0 0 1rem 0;
+}
+ .container {
+	 max-width: 900px;
+	 margin: 0 auto;
+	 padding: 20px;
+}
+ .title {
+	 font-size: 36px;
+	 text-align: center;
+	 margin-bottom: 40px;
+}
+ .anime-list {
+	 display: grid;
+	 grid-template-columns: repeat(2, 1fr);
+	 gap: 40px;
+}
+ .anime-card {
+	 background-color: #fff;
+	 border-radius: 8px;
+	 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	 overflow: hidden;
+}
+ .anime-info {
+	 padding: 20px;
+}
+ .anime-title {
+	 font-size: 24px;
+	 margin-bottom: 10px;
+}
+ .anime-score, .anime-episodes {
+	 margin: 0;
+	 font-size: 16px;
+}
+ .character-list {
+	 margin-top: 20px;
+}
+ .character-cards {
+	 display: flex;
+	 flex-wrap: wrap;
+	 gap: 20px;
+	 margin-top: 10px;
+}
+ .character-card {
+	 flex: 0 0 calc(33.33% - 10px);
+	 background-color: #f1f1f1;
+	 border-radius: 8px;
+	 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	 overflow: hidden;
+}
+ .character-image {
+	 display: block;
+	 width: 100%;
+	 height: auto;
+}
+ .character-name {
+	 margin: 10px;
+}
+ 
